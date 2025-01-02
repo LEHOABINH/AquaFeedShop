@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\bin\Debug\net8.0\AquaFeedShop.infrastructure.deps.json
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\bin\Debug\net8.0\AquaFeedShop.infrastructure.dll
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\bin\Debug\net8.0\AquaFeedShop.infrastructure.pdb
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\obj\Debug\net8.0\AquaFeedShop.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\obj\Debug\net8.0\AquaFeedShop.infrastructure.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\obj\Debug\net8.0\AquaFeedShop.infrastructure.AssemblyInfo.cs
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\obj\Debug\net8.0\AquaFeedShop.infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\obj\Debug\net8.0\AquaFeedShop.infrastructure.dll
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\obj\Debug\net8.0\refint\AquaFeedShop.infrastructure.dll
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\obj\Debug\net8.0\AquaFeedShop.infrastructure.pdb
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\obj\Debug\net8.0\ref\AquaFeedShop.infrastructure.dll
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\bin\Debug\net8.0\AquaFeedShop.infrastructure.runtimeconfig.json
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\obj\Debug\net8.0\AquaFeedShop.infrastructure.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\obj\Debug\net8.0\AquaFeedShop.infrastructure.genruntimeconfig.cache
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\bin\Debug\net8.0\AquaFeedShop.core.dll
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\bin\Debug\net8.0\AquaFeedShop.core.pdb
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.infrastructure\obj\Debug\net8.0\AquaFeed.B78C6F7B.Up2Date

@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "AquaFeedShop.api.Controllers.UserController",
+    "Method": "GetUserList",
+    "RelativePath": "api/user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

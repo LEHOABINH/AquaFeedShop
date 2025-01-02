@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\bin\Debug\net8.0\AquaFeedShop.shared.deps.json
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\bin\Debug\net8.0\AquaFeedShop.shared.dll
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\bin\Debug\net8.0\AquaFeedShop.shared.pdb
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\obj\Debug\net8.0\AquaFeedShop.shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\obj\Debug\net8.0\AquaFeedShop.shared.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\obj\Debug\net8.0\AquaFeedShop.shared.AssemblyInfo.cs
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\obj\Debug\net8.0\AquaFeedShop.shared.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\obj\Debug\net8.0\AquaFeedShop.shared.dll
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\obj\Debug\net8.0\refint\AquaFeedShop.shared.dll
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\obj\Debug\net8.0\AquaFeedShop.shared.pdb
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\obj\Debug\net8.0\ref\AquaFeedShop.shared.dll
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\bin\Debug\net8.0\AquaFeedShop.core.dll
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\bin\Debug\net8.0\AquaFeedShop.core.pdb
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\obj\Debug\net8.0\AquaFeedShop.shared.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.shared\obj\Debug\net8.0\AquaFeed.C82D59B3.Up2Date

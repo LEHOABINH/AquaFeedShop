@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FirebaseAdmin" Version="3.0.1" />
+		<PackageReference Include="Google.Cloud.Storage.V1" Version="4.10.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.1.0" />
+		<PackageReference Include="EPPlus" Version="7.3.2" />
+	</ItemGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\AquaFeedShop.core\AquaFeedShop.core.csproj" />
+    <ProjectReference Include="..\AquaFeedShop.infrastructure\AquaFeedShop.infrastructure.csproj" />
+    <ProjectReference Include="..\AquaFeedShop.shared\AquaFeedShop.shared.csproj" />
+  </ItemGroup>
+
+</Project>
