@@ -146,9 +146,9 @@ GO
 
 -- Thêm dữ liệu vào bảng CATEGORIE
 INSERT INTO CATEGORIE (category_name, description) VALUES
-('Thức ăn cá', N'Thức ăn dành cho các loại cá'),
-('Thức ăn tôm', N'Thức ăn dành cho tôm'),
-('Thức ăn hỗn hợp', N'Thức ăn tổng hợp cho nhiều loại thủy sản');
+(N'Thức ăn cá', N'Thức ăn dành cho các loại cá'),
+(N'Thức ăn tôm', N'Thức ăn dành cho tôm'),
+(N'Thức ăn hỗn hợp', N'Thức ăn tổng hợp cho nhiều loại thủy sản');
 GO
 
 -- Thêm dữ liệu vào bảng SUPPLIER

@@ -19,5 +19,11 @@ namespace AquaFeedShop.infrastructure.Repositories
         {
             return await dbSet.ToListAsync();
         }
+
+        public async Task<User?> GetUserByEmailAsync(string email)
+        {
+            return await dbSet.FirstOrDefaultAsync(u =>
+                u.Email.ToLower() == email.ToLower());
+        }
     }
 }

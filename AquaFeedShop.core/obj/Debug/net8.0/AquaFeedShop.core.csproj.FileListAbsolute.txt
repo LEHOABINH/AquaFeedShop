@@ -12,3 +12,4 @@ C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.core\obj\Debug\net8.0\refin
 C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.core\obj\Debug\net8.0\AquaFeedShop.core.pdb
 C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.core\obj\Debug\net8.0\AquaFeedShop.core.genruntimeconfig.cache
 C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.core\obj\Debug\net8.0\ref\AquaFeedShop.core.dll
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.core\obj\Debug\net8.0\AquaFeedShop.core.sourcelink.json

@@ -10,5 +10,6 @@ namespace AquaFeedShop.core.Interfaces
     public interface IUserRepository : IGenericRepository<User>
     {
         Task<IEnumerable<User>> GetAllUsers();
+        Task<User?> GetUserByEmailAsync(string email);
     }
 }

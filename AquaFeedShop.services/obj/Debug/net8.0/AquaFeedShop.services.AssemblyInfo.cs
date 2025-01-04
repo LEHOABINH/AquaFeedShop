@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AquaFeedShop.services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aed8c16aa92e256a63ffa25a527cda9c7f622729")]
 [assembly: System.Reflection.AssemblyProductAttribute("AquaFeedShop.services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AquaFeedShop.services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

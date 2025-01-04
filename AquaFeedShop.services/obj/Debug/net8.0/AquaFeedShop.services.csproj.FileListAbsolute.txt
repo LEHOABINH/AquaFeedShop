@@ -17,3 +17,4 @@ C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.services\bin\Debug\net8.0\A
 C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.services\bin\Debug\net8.0\AquaFeedShop.shared.pdb
 C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.services\obj\Debug\net8.0\AquaFeedShop.services.csproj.AssemblyReference.cache
 C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.services\obj\Debug\net8.0\AquaFeed.4C86482E.Up2Date
+C:\Users\Admin\Desktop\CAP\AquaFeedShop\AquaFeedShop.services\obj\Debug\net8.0\AquaFeedShop.services.sourcelink.json
