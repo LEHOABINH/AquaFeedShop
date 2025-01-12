@@ -17,8 +17,8 @@ CREATE TABLE ROLE (
 );
 GO
 
--- Bảng USERS (Người dùng)
-CREATE TABLE USERS (
+-- Bảng [USER] (Người dùng)
+CREATE TABLE [USER] (
     user_id INT IDENTITY(1,1) PRIMARY KEY,
     full_name NVARCHAR(100) NOT NULL,
     email NVARCHAR(100) NOT NULL UNIQUE,
@@ -32,8 +32,8 @@ CREATE TABLE USERS (
 );
 GO
 
--- Bảng CATEGORIE (Danh mục sản phẩm)
-CREATE TABLE CATEGORIE (
+-- Bảng CATEGORY (Danh mục sản phẩm)
+CREATE TABLE CATEGORY (
     category_id INT IDENTITY(1,1) PRIMARY KEY,
     category_name NVARCHAR(50) NOT NULL UNIQUE,
     description NVARCHAR(255)
@@ -55,24 +55,25 @@ CREATE TABLE PRODUCT (
     product_name NVARCHAR(100) NOT NULL,
     category_id INT,
     supplier_id INT,
-    price DECIMAL(18, 2) NOT NULL,
+    price INT NOT NULL,
     stock INT NOT NULL,
     unit NVARCHAR(50),
     description NVARCHAR(255),
+	image NVARCHAR(MAX),
     created_at DATETIME DEFAULT GETDATE(),
-    FOREIGN KEY (category_id) REFERENCES CATEGORIE(category_id),
+    FOREIGN KEY (category_id) REFERENCES CATEGORY(category_id),
     FOREIGN KEY (supplier_id) REFERENCES SUPPLIER(supplier_id)
 );
 GO
 
--- Bảng ORDERS (Đơn hàng)
-CREATE TABLE ORDERS (
+-- Bảng [ORDER] (Đơn hàng)
+CREATE TABLE [ORDER] (
     order_id INT IDENTITY(1,1) PRIMARY KEY,
     user_id INT NOT NULL,
     order_date DATETIME DEFAULT GETDATE(),
     total_amount DECIMAL(18, 2) NOT NULL,
     status NVARCHAR(50) DEFAULT 'Pending',
-    FOREIGN KEY (user_id) REFERENCES USERS(user_id)
+    FOREIGN KEY (user_id) REFERENCES [USER](user_id)
 );
 GO
 
@@ -84,7 +85,7 @@ CREATE TABLE ORDER_DETAIL (
     quantity INT NOT NULL,
     price DECIMAL(18, 2) NOT NULL,
     total AS (quantity * price),
-    FOREIGN KEY (order_id) REFERENCES ORDERS(order_id),
+    FOREIGN KEY (order_id) REFERENCES [ORDER](order_id),
     FOREIGN KEY (product_id) REFERENCES PRODUCT(product_id)
 );
 GO
@@ -97,7 +98,7 @@ CREATE TABLE CART (
     quantity INT NOT NULL,
     price DECIMAL(18, 2) NOT NULL,
     total AS (quantity * price),
-    FOREIGN KEY (user_id) REFERENCES USERS(user_id),
+    FOREIGN KEY (user_id) REFERENCES [USER](user_id),
     FOREIGN KEY (product_id) REFERENCES PRODUCT(product_id)
 );
 GO
@@ -109,8 +110,8 @@ CREATE TABLE CHAT_MESSAGE (
     receiver_id INT NOT NULL,
     message_content NVARCHAR(4000) NOT NULL,
     send_datetime DATETIME DEFAULT GETDATE(),
-    FOREIGN KEY (sender_id) REFERENCES USERS(user_id),
-    FOREIGN KEY (receiver_id) REFERENCES USERS(user_id)
+    FOREIGN KEY (sender_id) REFERENCES [USER](user_id),
+    FOREIGN KEY (receiver_id) REFERENCES [USER](user_id)
 );
 GO
 
@@ -119,7 +120,7 @@ CREATE TABLE FAVORITE_PRODUCT (
     user_id INT NOT NULL,
     product_id INT NOT NULL,
     PRIMARY KEY (user_id, product_id),
-    FOREIGN KEY (user_id) REFERENCES USERS(user_id),
+    FOREIGN KEY (user_id) REFERENCES [USER](user_id),
     FOREIGN KEY (product_id) REFERENCES PRODUCT(product_id)
 );
 GO
@@ -132,8 +133,8 @@ CREATE TABLE NOTIFICATION (
     message NVARCHAR(250) NOT NULL,
     created_at DATETIME NOT NULL DEFAULT GETDATE(),
     status NVARCHAR(20) CHECK (status IN ('Sent', 'Read')) NOT NULL,
-    FOREIGN KEY (sender_id) REFERENCES USERS(user_id),
-    FOREIGN KEY (receiver_id) REFERENCES USERS(user_id)
+    FOREIGN KEY (sender_id) REFERENCES [USER](user_id),
+    FOREIGN KEY (receiver_id) REFERENCES [USER](user_id)
 );
 GO
 
@@ -144,8 +145,8 @@ INSERT INTO ROLE (role_name, description) VALUES
 ('manager', N'Quản lý cửa hàng');
 GO
 
--- Thêm dữ liệu vào bảng CATEGORIE
-INSERT INTO CATEGORIE (category_name, description) VALUES
+-- Thêm dữ liệu vào bảng CATEGORY
+INSERT INTO CATEGORY (category_name, description) VALUES
 (N'Thức ăn cá', N'Thức ăn dành cho các loại cá'),
 (N'Thức ăn tôm', N'Thức ăn dành cho tôm'),
 (N'Thức ăn hỗn hợp', N'Thức ăn tổng hợp cho nhiều loại thủy sản');
@@ -153,12 +154,12 @@ GO
 
 -- Thêm dữ liệu vào bảng SUPPLIER
 INSERT INTO SUPPLIER (supplier_name, contact, address) VALUES
-('Nhà cung cấp A', N'0912345678', N'123 Đường Biển, TP. Đà Nẵng'),
-('Nhà cung cấp B', N'0987654321', N'456 Đường Hồ, TP. Nha Trang');
+(N'Nhà cung cấp A', N'0912345678', N'123 Đường Biển, TP. Đà Nẵng'),
+(N'Nhà cung cấp B', N'0987654321', N'456 Đường Hồ, TP. Nha Trang');
 GO
 
--- Thêm dữ liệu vào bảng USERS
-INSERT INTO USERS (full_name, email, password, phone, avatar, address, role_id) VALUES
+-- Thêm dữ liệu vào bảng [USER]
+INSERT INTO [USER] (full_name, email, password, phone, avatar, address, role_id) VALUES
 (N'Nguyễn Văn A', 'a@example.com', 'password123', '0901234567', 'avatar1.jpg', N'123 Đường A, TP. Hồ Chí Minh', 1),
 (N'Trần Thị B', 'b@example.com', 'password123', '0902345678', 'avatar2.jpg', N'456 Đường B, TP. Đà Nẵng', 2),
 (N'Lê Văn C', 'c@example.com', 'password123', '0903456789', 'avatar3.jpg', N'789 Đường C, TP. Nha Trang', 3);
@@ -166,13 +167,13 @@ GO
 
 -- Thêm dữ liệu vào bảng PRODUCT
 INSERT INTO PRODUCT (product_name, category_id, supplier_id, price, stock, unit, description) VALUES
-('Thức ăn cá basa', 1, 1, 50000, 100, N'Kg', N'Thức ăn giàu dinh dưỡng cho cá basa'),
-('Thức ăn tôm sú', 2, 2, 60000, 200, N'Kg', N'Thức ăn chuyên dụng cho tôm sú'),
-('Thức ăn hỗn hợp', 3, 1, 45000, 150, N'Kg', N'Thức ăn tổng hợp cho thủy sản');
+(N'Thức ăn cá basa', 1, 1, 50000, 100, N'Kg', N'Thức ăn giàu dinh dưỡng cho cá basa'),
+(N'Thức ăn tôm sú', 2, 2, 60000, 200, N'Kg', N'Thức ăn chuyên dụng cho tôm sú'),
+(N'Thức ăn hỗn hợp', 3, 1, 45000, 150, N'Kg', N'Thức ăn tổng hợp cho thủy sản');
 GO
 
--- Thêm dữ liệu vào bảng ORDERS
-INSERT INTO ORDERS (user_id, total_amount, status) VALUES
+-- Thêm dữ liệu vào bảng [ORDER]
+INSERT INTO [ORDER] (user_id, total_amount, status) VALUES
 (1, 100000, 'Pending'),
 (2, 150000, 'Completed'),
 (3, 200000, 'Shipped');

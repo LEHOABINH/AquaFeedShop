@@ -46,6 +46,7 @@ namespace AquaFeedShop.api.Controllers
 
                 var user = await _authService.GetUserByEmailAsync(model.Email);
                 if (user == null) throw new Exception("Email is incorrect or not registered.");
+                if (user.Password == null || model.Password != user.Password) throw new Exception("Email or password is not correct.");
                 //if (user.Password != null && !PasswordHasher.VerifyPassword(model.Password, user.Password)) throw new Exception("Email or password is not correct.");
                 //TokenModel token = new TokenModel
                 //{

@@ -42,6 +42,7 @@ builder.Services.AddSignalR().AddJsonProtocol(options =>
 builder.Services.AddDIServices(builder.Configuration);
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile).Assembly);

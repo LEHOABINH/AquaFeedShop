@@ -14,13 +14,16 @@ namespace AquaFeedShop.infrastructure.Repositories
         private readonly AquaFeedShopContext _dbContext;
         private IDbContextTransaction _transaction;
         public IUserRepository Users { get; }
+        public IProductRepository Products { get; }
 
         public UnitOfWork(AquaFeedShopContext dbContext,
-                          IUserRepository userRepository
+                          IUserRepository userRepository,
+                          IProductRepository productRepository
                            )
         {
             _dbContext = dbContext;
             Users = userRepository;
+            Products = productRepository;
         }
 
         public void BeginTransaction()

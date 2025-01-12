@@ -43,7 +43,7 @@ public partial class AquaFeedShopContext : DbContext
 
         modelBuilder.Entity<Cart>(entity =>
         {
-            entity.HasKey(e => e.CartId).HasName("PK__CART__2EF52A27CA359D56");
+            entity.HasKey(e => e.CartId).HasName("PK__CART__2EF52A27AB0C403B");
 
             entity.ToTable("CART");
 
@@ -72,11 +72,11 @@ public partial class AquaFeedShopContext : DbContext
 
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.CategoryId).HasName("PK__CATEGORI__D54EE9B43AE69D31");
+            entity.HasKey(e => e.CategoryId).HasName("PK__CATEGORY__D54EE9B44BB8B91E");
 
-            entity.ToTable("CATEGORIES");
+            entity.ToTable("CATEGORY");
 
-            entity.HasIndex(e => e.CategoryName, "UQ__CATEGORI__5189E255F96361A6").IsUnique();
+            entity.HasIndex(e => e.CategoryName, "UQ__CATEGORY__5189E255319B9991").IsUnique();
 
             entity.Property(e => e.CategoryId).HasColumnName("category_id");
             entity.Property(e => e.CategoryName)
@@ -89,7 +89,7 @@ public partial class AquaFeedShopContext : DbContext
 
         modelBuilder.Entity<ChatMessage>(entity =>
         {
-            entity.HasKey(e => e.MessageId).HasName("PK__CHAT_MES__0BBF6EE6F276D6D1");
+            entity.HasKey(e => e.MessageId).HasName("PK__CHAT_MES__0BBF6EE61E9DB57C");
 
             entity.ToTable("CHAT_MESSAGE");
 
@@ -117,7 +117,7 @@ public partial class AquaFeedShopContext : DbContext
 
         modelBuilder.Entity<Notification>(entity =>
         {
-            entity.HasKey(e => e.NotificationId).HasName("PK__NOTIFICA__E059842FD91199B5");
+            entity.HasKey(e => e.NotificationId).HasName("PK__NOTIFICA__E059842FF07AFFA5");
 
             entity.ToTable("NOTIFICATION");
 
@@ -148,9 +148,9 @@ public partial class AquaFeedShopContext : DbContext
 
         modelBuilder.Entity<Order>(entity =>
         {
-            entity.HasKey(e => e.OrderId).HasName("PK__ORDERS__4659622938A8F1B2");
+            entity.HasKey(e => e.OrderId).HasName("PK__ORDER__4659622990A9CFF9");
 
-            entity.ToTable("ORDERS");
+            entity.ToTable("ORDER");
 
             entity.Property(e => e.OrderId).HasColumnName("order_id");
             entity.Property(e => e.OrderDate)
@@ -169,14 +169,14 @@ public partial class AquaFeedShopContext : DbContext
             entity.HasOne(d => d.User).WithMany(p => p.Orders)
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ORDERS__user_id__37A5467C");
+                .HasConstraintName("FK__ORDER__user_id__37A5467C");
         });
 
         modelBuilder.Entity<OrderDetail>(entity =>
         {
-            entity.HasKey(e => e.OrderDetailId).HasName("PK__ORDER_DE__3C5A40804EE7679E");
+            entity.HasKey(e => e.OrderDetailId).HasName("PK__ORDER_DE__3C5A408086D10F73");
 
-            entity.ToTable("ORDER_DETAILS");
+            entity.ToTable("ORDER_DETAIL");
 
             entity.Property(e => e.OrderDetailId).HasColumnName("order_detail_id");
             entity.Property(e => e.OrderId).HasColumnName("order_id");
@@ -203,9 +203,9 @@ public partial class AquaFeedShopContext : DbContext
 
         modelBuilder.Entity<Product>(entity =>
         {
-            entity.HasKey(e => e.ProductId).HasName("PK__PRODUCTS__47027DF5CCA9DA93");
+            entity.HasKey(e => e.ProductId).HasName("PK__PRODUCT__47027DF5CD1DE231");
 
-            entity.ToTable("PRODUCTS");
+            entity.ToTable("PRODUCT");
 
             entity.Property(e => e.ProductId).HasColumnName("product_id");
             entity.Property(e => e.CategoryId).HasColumnName("category_id");
@@ -216,9 +216,8 @@ public partial class AquaFeedShopContext : DbContext
             entity.Property(e => e.Description)
                 .HasMaxLength(255)
                 .HasColumnName("description");
-            entity.Property(e => e.Price)
-                .HasColumnType("decimal(18, 2)")
-                .HasColumnName("price");
+            entity.Property(e => e.Image).HasColumnName("image");
+            entity.Property(e => e.Price).HasColumnName("price");
             entity.Property(e => e.ProductName)
                 .HasMaxLength(100)
                 .HasColumnName("product_name");
@@ -230,20 +229,20 @@ public partial class AquaFeedShopContext : DbContext
 
             entity.HasOne(d => d.Category).WithMany(p => p.Products)
                 .HasForeignKey(d => d.CategoryId)
-                .HasConstraintName("FK__PRODUCTS__catego__31EC6D26");
+                .HasConstraintName("FK__PRODUCT__categor__31EC6D26");
 
             entity.HasOne(d => d.Supplier).WithMany(p => p.Products)
                 .HasForeignKey(d => d.SupplierId)
-                .HasConstraintName("FK__PRODUCTS__suppli__32E0915F");
+                .HasConstraintName("FK__PRODUCT__supplie__32E0915F");
         });
 
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.RoleId).HasName("PK__ROLES__760965CC27C24113");
+            entity.HasKey(e => e.RoleId).HasName("PK__ROLE__760965CC727A8C3B");
 
-            entity.ToTable("ROLES");
+            entity.ToTable("ROLE");
 
-            entity.HasIndex(e => e.RoleName, "UQ__ROLES__783254B1F7FF43DE").IsUnique();
+            entity.HasIndex(e => e.RoleName, "UQ__ROLE__783254B1F590977F").IsUnique();
 
             entity.Property(e => e.RoleId).HasColumnName("role_id");
             entity.Property(e => e.Description)
@@ -256,9 +255,9 @@ public partial class AquaFeedShopContext : DbContext
 
         modelBuilder.Entity<Supplier>(entity =>
         {
-            entity.HasKey(e => e.SupplierId).HasName("PK__SUPPLIER__6EE594E85769735F");
+            entity.HasKey(e => e.SupplierId).HasName("PK__SUPPLIER__6EE594E86D358511");
 
-            entity.ToTable("SUPPLIERS");
+            entity.ToTable("SUPPLIER");
 
             entity.Property(e => e.SupplierId).HasColumnName("supplier_id");
             entity.Property(e => e.Address)
@@ -274,11 +273,11 @@ public partial class AquaFeedShopContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__USERS__B9BE370F1D2594BF");
+            entity.HasKey(e => e.UserId).HasName("PK__USER__B9BE370F40175A99");
 
-            entity.ToTable("USERS");
+            entity.ToTable("USER");
 
-            entity.HasIndex(e => e.Email, "UQ__USERS__AB6E6164CEFAB8D6").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__USER__AB6E616405B13F83").IsUnique();
 
             entity.Property(e => e.UserId).HasColumnName("user_id");
             entity.Property(e => e.Address)
@@ -303,7 +302,7 @@ public partial class AquaFeedShopContext : DbContext
             entity.HasOne(d => d.Role).WithMany(p => p.Users)
                 .HasForeignKey(d => d.RoleId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__USERS__role_id__29572725");
+                .HasConstraintName("FK__USER__role_id__29572725");
 
             entity.HasMany(d => d.Products).WithMany(p => p.Users)
                 .UsingEntity<Dictionary<string, object>>(
@@ -318,8 +317,8 @@ public partial class AquaFeedShopContext : DbContext
                         .HasConstraintName("FK__FAVORITE___user___46E78A0C"),
                     j =>
                     {
-                        j.HasKey("UserId", "ProductId").HasName("PK__FAVORITE__FDCE10D0660BEFE6");
-                        j.ToTable("FAVORITE_PRODUCTS");
+                        j.HasKey("UserId", "ProductId").HasName("PK__FAVORITE__FDCE10D036BC35D9");
+                        j.ToTable("FAVORITE_PRODUCT");
                         j.IndexerProperty<int>("UserId").HasColumnName("user_id");
                         j.IndexerProperty<int>("ProductId").HasColumnName("product_id");
                     });
