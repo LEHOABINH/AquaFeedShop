@@ -17,31 +17,22 @@ using Task = System.Threading.Tasks.Task;
 
 namespace AquaFeedShop.services
 {
-    public class UserService : IUserService
+    public class RoleService : IRoleService
     {
         public IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public UserService(
+        public RoleService(
             IUnitOfWork unitOfWork,
             IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
-
-        public async Task<IEnumerable<User>> GetAllUsers()
+        public Task<Role?> GetRoleById(int roleId)
         {
-            var usersList = await _unitOfWork.Users.GetAllUsers();
-            return usersList;
-        }
-
-        public async Task<User> GetUserByRole(int role)
-        {
-            var user = await _unitOfWork.Users.GetAsync(
-                filter: t => t.RoleId == role
-            );
-            return user.FirstOrDefault();  
+            var role = _unitOfWork.Roles.GetByIDAsync(roleId);
+            return role;
         }
 
     }

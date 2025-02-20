@@ -4,6 +4,8 @@
     {
         IUserRepository Users { get; }
         IProductRepository Products { get; }
+        ICartRepository Carts { get; }
+        IRoleRepository Roles { get; }
 
         int Save();
 

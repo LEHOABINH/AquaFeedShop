@@ -15,15 +15,21 @@ namespace AquaFeedShop.infrastructure.Repositories
         private IDbContextTransaction _transaction;
         public IUserRepository Users { get; }
         public IProductRepository Products { get; }
+        public ICartRepository Carts { get; }
+        public IRoleRepository Roles { get; }
 
         public UnitOfWork(AquaFeedShopContext dbContext,
                           IUserRepository userRepository,
-                          IProductRepository productRepository
+                          IProductRepository productRepository,
+                          IRoleRepository roleRepository,
+                          ICartRepository cartRepository
                            )
         {
             _dbContext = dbContext;
             Users = userRepository;
             Products = productRepository;
+            Carts = cartRepository;
+            Roles = roleRepository;
         }
 
         public void BeginTransaction()

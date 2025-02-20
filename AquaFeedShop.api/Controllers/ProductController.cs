@@ -10,6 +10,7 @@ using AquaFeedShop.services.Interfaces;
 using AquaFeedShop.shared.Extensions;
 using Microsoft.AspNetCore.SignalR;
 using AquaFeedShop.shared.Models.Response;
+using System.Data;
 
 
 namespace AquaFeedShop.api.Controllers
@@ -44,6 +45,34 @@ namespace AquaFeedShop.api.Controllers
             ApiResponse<IEnumerable<object>> response = new ApiResponse<IEnumerable<object>>();
             response.Data = productList;
             return Ok(response);
-        }   
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetProductById(int id)
+        {
+            var user = await _userService.GetUserByRole(2);  // Lấy người dùng theo vai trò
+            var product = await _productService.GetProductById(id);  // Lấy sản phẩm theo id
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            // Tạo đối tượng response chứa cả user và product
+            var responseData = new
+            {
+                User = user,
+                Product = product
+            };
+
+            ApiResponse<object> response = new ApiResponse<object>
+            {
+                Data = responseData
+            };
+
+            return Ok(response);
+        }
+
+
     }
 }

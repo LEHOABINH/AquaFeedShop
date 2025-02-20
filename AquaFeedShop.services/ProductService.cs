@@ -30,6 +30,49 @@ namespace AquaFeedShop.services
             _mapper = mapper;
         }
 
+        public async Task<Product> GetProductByProductId(int id)
+        {
+            var product = await _unitOfWork.Products.GetByIDAsync(id);
+            return product;
+        }
+
+        public async Task<object> GetProductById(int id)
+        {
+            var product = await _unitOfWork.Products.GetAsync(
+                filter: t => t.ProductId == id,
+                includeProperties: "Category,Supplier" // Bao gồm Category và Supplier
+            );
+
+            if (product == null)
+            {
+                return null; // Nếu không tìm thấy sản phẩm, trả về null
+            }
+
+            var result = product.Select(p => new
+            {
+                p.ProductId,
+                p.ProductName,
+                p.Price,
+                p.Stock,
+                p.Unit,
+                p.Image,
+                p.Description,
+                Category = new
+                {
+                    p.Category?.CategoryId,
+                    p.Category?.CategoryName
+                },
+                Supplier = new
+                {
+                    p.Supplier?.SupplierId,
+                    p.Supplier?.SupplierName
+                }
+            }).FirstOrDefault(); // Lấy sản phẩm đầu tiên vì GetAsync trả về IEnumerable
+
+            return result;
+        }
+
+
         public async Task<IEnumerable<object>> GetAllProduct()
         {
             var productList = await _unitOfWork.Products.GetAsync(

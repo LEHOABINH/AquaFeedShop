@@ -18,6 +18,7 @@ namespace AquaFeedShop.infrastructure.ServiceExtension
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICartRepository, CartRepository>();
+            services.AddScoped<IRoleRepository, RoleRepository>();
 
             return services;
         }

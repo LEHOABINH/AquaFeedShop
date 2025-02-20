@@ -9,11 +9,12 @@ using AquaFeedShop.shared.Models.Request;
 
 namespace AquaFeedShop.services.Interfaces
 {
-    public interface IProductService
+    public interface ICartService
     {
-        Task<IEnumerable<object>> GetAllProduct();
-        Task<object> GetProductById(int id);
-        Task<Product> GetProductByProductId(int id);
+        Task<Cart?> CreateCart(Cart cart);
+        Task<IEnumerable<object>> GetAllCart();
+        Task<IEnumerable<Cart>> GetCartByUserId(int userId);
+        Task<bool> UpdateCart(Cart cart);
 
     }
 }

@@ -5,14 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AquaFeedShop.core.Models;
-//using AquaFeedShop.shared.Models.Request;
+using AquaFeedShop.shared.Models.Request;
 
 namespace AquaFeedShop.services.Interfaces
 {
-    public interface IUserService
+    public interface IRoleService
     {
-        Task<IEnumerable<User>> GetAllUsers();
-        Task<User> GetUserByRole(int role);
+        Task<Role?> GetRoleById(int roleId);
 
     }
 }

@@ -3,8 +3,140 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|solutionrelative:aquafeedshop.services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|solutionrelative:aquafeedshop.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.services\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|solutionrelative:aquafeedshop.services\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.shared\\models\\request\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|solutionrelative:aquafeedshop.shared\\models\\request\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|solutionrelative:aquafeedshop.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|solutionrelative:aquafeedshop.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|solutionrelative:aquafeedshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.api\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|solutionrelative:aquafeedshop.api\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|solutionrelative:aquafeedshop.services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|solutionrelative:aquafeedshop.services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|solutionrelative:aquafeedshop.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|solutionrelative:aquafeedshop.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|solutionrelative:aquafeedshop.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|solutionrelative:aquafeedshop.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|solutionrelative:aquafeedshop.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|solutionrelative:aquafeedshop.services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|solutionrelative:aquafeedshop.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.infrastructure\\serviceextension\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|solutionrelative:aquafeedshop.infrastructure\\serviceextension\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.services\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|solutionrelative:aquafeedshop.services\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.shared\\extensions\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|solutionrelative:aquafeedshop.shared\\extensions\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.shared\\models\\request\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|solutionrelative:aquafeedshop.shared\\models\\request\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|solutionrelative:aquafeedshop.infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.infrastructure\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|solutionrelative:aquafeedshop.infrastructure\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\interfaces\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\interfaces\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.shared\\models\\request\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|solutionrelative:aquafeedshop.shared\\models\\request\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|solutionrelative:aquafeedshop.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,22 +151,6 @@
       "RelativeMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|solutionrelative:aquafeedshop.shared\\models\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|solutionrelative:aquafeedshop.services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|solutionrelative:aquafeedshop.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|solutionrelative:aquafeedshop.services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,50 +161,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.infrastructure\\aquafeedshop.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|solutionrelative:aquafeedshop.infrastructure\\aquafeedshop.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.infrastructure\\serviceextension\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|solutionrelative:aquafeedshop.infrastructure\\serviceextension\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|solutionrelative:aquafeedshop.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47F5DD22-37D0-4488-9AF6-DC45918E7FA4}|AquaFeedShop.core\\AquaFeedShop.core.csproj|solutionrelative:aquafeedshop.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|solutionrelative:aquafeedshop.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|solutionrelative:aquafeedshop.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|solutionrelative:aquafeedshop.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|solutionrelative:aquafeedshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|solutionrelative:aquafeedshop.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDEA5C72-E9FE-4AF3-9DFC-088908705999}|AquaFeedShop.api\\AquaFeedShop.api.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.api\\aquafeedshop.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -111,20 +183,8 @@
       "RelativeMoniker": "D:0:0:{31FADA36-F488-4735-8F55-B5AA3487BA5C}|AquaFeedShop.services\\AquaFeedShop.services.csproj|solutionrelative:aquafeedshop.services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.shared\\models\\request\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|solutionrelative:aquafeedshop.shared\\models\\request\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.shared\\extensions\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|solutionrelative:aquafeedshop.shared\\extensions\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.shared\\aquafeedshop.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{386020DD-C237-44D8-A9EA-9C721FAC8A94}|AquaFeedShop.shared\\AquaFeedShop.shared.csproj|solutionrelative:aquafeedshop.shared\\aquafeedshop.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|c:\\users\\admin\\desktop\\cap\\aquafeedshop\\aquafeedshop.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBBAE1C4-51BC-4816-A6F1-92D82A29AC37}|AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj|solutionrelative:aquafeedshop.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -154,7 +214,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 383,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -174,7 +234,188 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 22,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "AquaFeedShop.core\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Models\\Role.cs",
+              "RelativeToolTip": "AquaFeedShop.core\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:38:09.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\appsettings.json",
+              "RelativeDocumentMoniker": "AquaFeedShop.api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\appsettings.json",
+              "RelativeToolTip": "AquaFeedShop.api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-12T13:31:29.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\Middleware\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "AquaFeedShop.api\\Middleware\\JwtMiddleware.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\Middleware\\JwtMiddleware.cs",
+              "RelativeToolTip": "AquaFeedShop.api\\Middleware\\JwtMiddleware.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAgwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:28:00.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\RoleService.cs",
+              "RelativeDocumentMoniker": "AquaFeedShop.services\\RoleService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\RoleService.cs",
+              "RelativeToolTip": "AquaFeedShop.services\\RoleService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:17:00.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\Interfaces\\IRoleService.cs",
+              "RelativeDocumentMoniker": "AquaFeedShop.services\\Interfaces\\IRoleService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\Interfaces\\IRoleService.cs",
+              "RelativeToolTip": "AquaFeedShop.services\\Interfaces\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:16:22.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "AquaFeedShop.infrastructure\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "AquaFeedShop.infrastructure\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:15:17.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "AquaFeedShop.core\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "AquaFeedShop.core\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:14:57.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TokenModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.shared\\Models\\Request\\TokenModel.cs",
+              "RelativeDocumentMoniker": "AquaFeedShop.shared\\Models\\Request\\TokenModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.shared\\Models\\Request\\TokenModel.cs",
+              "RelativeToolTip": "AquaFeedShop.shared\\Models\\Request\\TokenModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:10:10.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "AquaFeedShop.api\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\Controllers\\CartController.cs",
+              "RelativeToolTip": "AquaFeedShop.api\\Controllers\\CartController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAjwCkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T08:45:34.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.shared\\Models\\Request\\CartModel.cs",
+              "RelativeDocumentMoniker": "AquaFeedShop.shared\\Models\\Request\\CartModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.shared\\Models\\Request\\CartModel.cs",
+              "RelativeToolTip": "AquaFeedShop.shared\\Models\\Request\\CartModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T08:41:53.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "AquaFeedShop.core\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Models\\Cart.cs",
+              "RelativeToolTip": "AquaFeedShop.core\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T08:41:27.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\CartService.cs",
+              "RelativeDocumentMoniker": "AquaFeedShop.services\\CartService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\CartService.cs",
+              "RelativeToolTip": "AquaFeedShop.services\\CartService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAnwDYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T08:39:16.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\Interfaces\\ICartService.cs",
+              "RelativeDocumentMoniker": "AquaFeedShop.services\\Interfaces\\ICartService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\Interfaces\\ICartService.cs",
+              "RelativeToolTip": "AquaFeedShop.services\\Interfaces\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T08:39:27.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.infrastructure\\Repositories\\CartRepository.cs",
+              "RelativeDocumentMoniker": "AquaFeedShop.infrastructure\\Repositories\\CartRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.infrastructure\\Repositories\\CartRepository.cs",
+              "RelativeToolTip": "AquaFeedShop.infrastructure\\Repositories\\CartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T08:32:01.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Interfaces\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "AquaFeedShop.core\\Interfaces\\ICartRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Interfaces\\ICartRepository.cs",
+              "RelativeToolTip": "AquaFeedShop.core\\Interfaces\\ICartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T08:31:27.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "AquaFeedShopContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.infrastructure\\AquaFeedShopContext.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.infrastructure\\AquaFeedShopContext.cs",
@@ -182,88 +423,83 @@
               "RelativeToolTip": "AquaFeedShop.infrastructure\\AquaFeedShopContext.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAA5wCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T13:11:49.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T13:11:49.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Models\\Product.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.core\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Models\\Product.cs",
               "RelativeToolTip": "AquaFeedShop.core\\Models\\Product.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wCEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T13:10:35.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T13:10:35.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Models\\User.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.core\\Models\\User.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Models\\User.cs",
               "RelativeToolTip": "AquaFeedShop.core\\Models\\User.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T08:11:51.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.api\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\Controllers\\ProductController.cs",
               "RelativeToolTip": "AquaFeedShop.api\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAuwC8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T07:24:13.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T07:24:13.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 15,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.api\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\Controllers\\UserController.cs",
               "RelativeToolTip": "AquaFeedShop.api\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwD0AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T07:23:53.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\ProductService.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.services\\ProductService.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\ProductService.cs",
               "RelativeToolTip": "AquaFeedShop.services\\ProductService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T07:13:06.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T07:13:06.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.services\\Interfaces\\IProductService.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\Interfaces\\IProductService.cs",
               "RelativeToolTip": "AquaFeedShop.services\\Interfaces\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T07:12:45.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T07:12:45.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 32,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.infrastructure\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.infrastructure\\Repositories\\ProductRepository.cs",
@@ -275,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 33,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.core\\Interfaces\\IProductRepository.cs",
@@ -287,32 +523,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.api\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\Controllers\\AuthController.cs",
               "RelativeToolTip": "AquaFeedShop.api\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAUwCwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwHUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T16:39:32.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T16:39:32.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\Program.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.api\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\Program.cs",
               "RelativeToolTip": "AquaFeedShop.api\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACwAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAADgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T16:39:25.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 40,
               "Title": "AquaFeedShop.api.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.api\\AquaFeedShop.api.csproj",
               "RelativeDocumentMoniker": "AquaFeedShop.api\\AquaFeedShop.api.csproj",
@@ -324,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 42,
               "Title": "AquaFeedShop.core",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\AquaFeedShop.core.csproj",
               "RelativeDocumentMoniker": "AquaFeedShop.core\\AquaFeedShop.core.csproj",
@@ -335,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 34,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\AuthService.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.services\\AuthService.cs",
@@ -343,12 +578,11 @@
               "RelativeToolTip": "AquaFeedShop.services\\AuthService.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAcwF4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T13:27:39.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T13:27:39.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 44,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.services\\Interfaces\\IAuthService.cs",
@@ -360,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 46,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "AquaFeedShop\\Controllers\\AuthController.cs",
@@ -371,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 36,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.shared\\Models\\Response\\ApiResponse.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.shared\\Models\\Response\\ApiResponse.cs",
@@ -379,24 +613,23 @@
               "RelativeToolTip": "AquaFeedShop.shared\\Models\\Response\\ApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T17:08:09.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T17:08:09.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.shared\\Models\\Request\\LoginModel.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.shared\\Models\\Request\\LoginModel.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.shared\\Models\\Request\\LoginModel.cs",
               "RelativeToolTip": "AquaFeedShop.shared\\Models\\Request\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T17:07:34.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 47,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "AquaFeedShop\\Controllers\\UserController.cs",
@@ -408,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 48,
               "Title": "JwtMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop\\Middleware\\JwtMiddleware.cs",
               "RelativeDocumentMoniker": "AquaFeedShop\\Middleware\\JwtMiddleware.cs",
@@ -420,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 43,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.shared\\Extensions\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.shared\\Extensions\\PasswordHasher.cs",
@@ -432,43 +665,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 25,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.shared\\Extensions\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.shared\\Extensions\\AutoMapperProfile.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.shared\\Extensions\\AutoMapperProfile.cs",
               "RelativeToolTip": "AquaFeedShop.shared\\Extensions\\AutoMapperProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T04:38:36.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 17,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.services\\Interfaces\\IUserService.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\Interfaces\\IUserService.cs",
               "RelativeToolTip": "AquaFeedShop.services\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T03:44:37.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 16,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\UserService.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.services\\UserService.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.services\\UserService.cs",
               "RelativeToolTip": "AquaFeedShop.services\\UserService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAewCwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T03:41:56.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 35,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.infrastructure\\Repositories\\UserRepository.cs",
@@ -476,12 +709,11 @@
               "RelativeToolTip": "AquaFeedShop.infrastructure\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAcwBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T03:29:48.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T03:29:48.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.core\\Interfaces\\IUserRepository.cs",
@@ -493,31 +725,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.infrastructure\\Repositories\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.infrastructure\\Repositories\\UnitOfWork.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.infrastructure\\Repositories\\UnitOfWork.cs",
               "RelativeToolTip": "AquaFeedShop.infrastructure\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwBcAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAIA2wFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T02:10:04.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.core\\Interfaces\\IUnitOfWork.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Interfaces\\IUnitOfWork.cs",
               "RelativeToolTip": "AquaFeedShop.core\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T02:12:39.641Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 45,
               "Title": "AquaFeedShop.shared.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.shared\\AquaFeedShop.shared.csproj",
               "RelativeDocumentMoniker": "AquaFeedShop.shared\\AquaFeedShop.shared.csproj",
@@ -529,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 41,
               "Title": "AquaFeedShop.api.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop\\AquaFeedShop.api.csproj",
               "RelativeDocumentMoniker": "AquaFeedShop\\AquaFeedShop.api.csproj",
@@ -540,19 +772,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 13,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.infrastructure\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.infrastructure\\Repositories\\GenericRepository.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.infrastructure\\Repositories\\GenericRepository.cs",
               "RelativeToolTip": "AquaFeedShop.infrastructure\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAWwDgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T02:35:56.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 37,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.core\\Interfaces\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.core\\Interfaces\\IGenericRepository.cs",
@@ -560,24 +792,23 @@
               "RelativeToolTip": "AquaFeedShop.core\\Interfaces\\IGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T02:35:26.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T02:35:26.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "ServiceExtension.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.infrastructure\\ServiceExtension\\ServiceExtension.cs",
               "RelativeDocumentMoniker": "AquaFeedShop.infrastructure\\ServiceExtension\\ServiceExtension.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.infrastructure\\ServiceExtension\\ServiceExtension.cs",
               "RelativeToolTip": "AquaFeedShop.infrastructure\\ServiceExtension\\ServiceExtension.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T11:48:36.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 49,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop\\appsettings.json",
               "RelativeDocumentMoniker": "AquaFeedShop\\appsettings.json",
@@ -589,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 39,
               "Title": "AquaFeedShop.infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj",
               "RelativeDocumentMoniker": "AquaFeedShop.infrastructure\\AquaFeedShop.infrastructure.csproj",
@@ -601,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 50,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CAP\\AquaFeedShop\\AquaFeedShop\\Program.cs",
               "RelativeDocumentMoniker": "AquaFeedShop\\Program.cs",

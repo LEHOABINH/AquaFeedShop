@@ -54,6 +54,21 @@ namespace AquaFeedShop.api.Controllers
             ApiResponse<IEnumerable<User>> response = new ApiResponse<IEnumerable<User>>();
             response.Data = usersList;
             return Ok(response);
-        }   
+        }
+
+        [HttpGet("GetByRole")]
+        public async Task<IActionResult> GetUserByRole(int role)
+        {
+            var user = await _userService.GetUserByRole(role);  
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            ApiResponse<User> response = new ApiResponse<User>();
+            response.Data = user;
+            return Ok(response);
+        }
+
     }
 }
